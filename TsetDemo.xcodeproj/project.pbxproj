@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6DECF1D1D74271000056993 /* BOSCH5_3LogicalChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DECF1C1D74271000056993 /* BOSCH5_3LogicalChannel.m */; };
+		D6DFB18F1D77D24700721137 /* VoltageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB18E1D77D24700721137 /* VoltageHandler.m */; };
 		D6E032151D6D651400A4526F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032141D6D651400A4526F /* main.m */; };
 		D6E032181D6D651400A4526F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032171D6D651400A4526F /* AppDelegate.m */; };
 		D6E0321B1D6D651400A4526F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0321A1D6D651400A4526F /* ViewController.m */; };
@@ -15,6 +17,51 @@
 		D6E032231D6D651400A4526F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E032211D6D651400A4526F /* LaunchScreen.storyboard */; };
 		D6E0322E1D6D651400A4526F /* TsetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0322D1D6D651400A4526F /* TsetDemoTests.m */; };
 		D6E032391D6D651400A4526F /* TsetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032381D6D651400A4526F /* TsetDemoUITests.m */; };
+		D6E0328F1D6D656300A4526F /* BOSCH5_3FrameHamdler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0324D1D6D656200A4526F /* BOSCH5_3FrameHamdler.m */; };
+		D6E032901D6D656300A4526F /* BOSCH5_3PhyChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0324F1D6D656200A4526F /* BOSCH5_3PhyChannel.m */; };
+		D6E032911D6D656300A4526F /* BytesConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032511D6D656200A4526F /* BytesConverter.m */; };
+		D6E032921D6D656300A4526F /* CANChannelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032531D6D656200A4526F /* CANChannelBase.m */; };
+		D6E032931D6D656300A4526F /* CANLogalChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032551D6D656200A4526F /* CANLogalChannel.m */; };
+		D6E032941D6D656300A4526F /* CANPhychannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032571D6D656200A4526F /* CANPhychannel.m */; };
+		D6E032951D6D656300A4526F /* DataHub.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032591D6D656200A4526F /* DataHub.m */; };
+		D6E032961D6D656300A4526F /* DataLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0325B1D6D656200A4526F /* DataLinker.m */; };
+		D6E032971D6D656300A4526F /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0325D1D6D656200A4526F /* Device.m */; };
+		D6E032981D6D656300A4526F /* ErrorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0325F1D6D656200A4526F /* ErrorItem.m */; };
+		D6E032991D6D656300A4526F /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032611D6D656200A4526F /* Filter.m */; };
+		D6E0329A1D6D656300A4526F /* FirwareProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032631D6D656300A4526F /* FirwareProgram.m */; };
+		D6E0329B1D6D656300A4526F /* HandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032651D6D656300A4526F /* HandlerChain.m */; };
+		D6E0329C1D6D656300A4526F /* ISO914LogicalChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032671D6D656300A4526F /* ISO914LogicalChannel.m */; };
+		D6E0329D1D6D656300A4526F /* ISO14230Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032691D6D656300A4526F /* ISO14230Channel.m */; };
+		D6E0329E1D6D656300A4526F /* ISO15765Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0326B1D6D656300A4526F /* ISO15765Channel.m */; };
+		D6E0329F1D6D656300A4526F /* J2534.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0326D1D6D656300A4526F /* J2534.m */; };
+		D6E032A01D6D656300A4526F /* KPhyChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0326F1D6D656300A4526F /* KPhyChannel.m */; };
+		D6E032A11D6D656300A4526F /* LinkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032711D6D656300A4526F /* LinkMessage.m */; };
+		D6E032A21D6D656300A4526F /* LinkProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032731D6D656300A4526F /* LinkProtocol.m */; };
+		D6E032A31D6D656300A4526F /* LogcalChanenel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032751D6D656300A4526F /* LogcalChanenel.m */; };
+		D6E032A41D6D656300A4526F /* NetworkFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032771D6D656300A4526F /* NetworkFrame.m */; };
+		D6E032A51D6D656300A4526F /* PassThruConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032791D6D656300A4526F /* PassThruConfig.m */; };
+		D6E032A61D6D656300A4526F /* PassThruMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0327B1D6D656300A4526F /* PassThruMsg.m */; };
+		D6E032A71D6D656300A4526F /* PhysicalChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0327D1D6D656300A4526F /* PhysicalChannel.m */; };
+		D6E032A81D6D656300A4526F /* ResponseHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0327F1D6D656300A4526F /* ResponseHandlerBase.m */; };
+		D6E032A91D6D656300A4526F /* RunOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032811D6D656300A4526F /* RunOptions.m */; };
+		D6E032AA1D6D656300A4526F /* RxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032831D6D656300A4526F /* RxMessage.m */; };
+		D6E032AB1D6D656300A4526F /* SocketManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032851D6D656300A4526F /* SocketManger.m */; };
+		D6E032AC1D6D656300A4526F /* SystemError.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032871D6D656300A4526F /* SystemError.m */; };
+		D6E032AD1D6D656300A4526F /* TxMwssage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E032891D6D656300A4526F /* TxMwssage.m */; };
+		D6E032AE1D6D656300A4526F /* VersionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0328B1D6D656300A4526F /* VersionHandler.m */; };
+		D6E740391D8F8350006F678A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E740361D8F8350006F678A /* GCDAsyncSocket.m */; };
+		D6E7403A1D8F8350006F678A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E740381D8F8350006F678A /* GCDAsyncUdpSocket.m */; };
+		D6E85A2B1D913E19005459AC /* OutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E85A2A1D913E19005459AC /* OutObject.m */; };
+		D6E9E5BE1D75594200DC0D09 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E9E5BB1D75594200DC0D09 /* AsyncSocket.m */; };
+		D6E9E5BF1D75594200DC0D09 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E9E5BD1D75594200DC0D09 /* AsyncUdpSocket.m */; };
+		D6EA86541D701A8C00CB98E7 /* ISO15765Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA86531D701A8C00CB98E7 /* ISO15765Filter.m */; };
+		D6EA86571D701C2C00CB98E7 /* ISO15765Param.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA86561D701C2C00CB98E7 /* ISO15765Param.m */; };
+		D6EA9E741D6E8528003F8382 /* SecurityAccessHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA9E731D6E8528003F8382 /* SecurityAccessHandler.m */; };
+		D6ED33191D790E1500998AF2 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ED33181D790E1500998AF2 /* Message.m */; };
+		D6FADD5D1D77F6A1008A1401 /* SAICSAHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FADD5C1D77F6A1008A1401 /* SAICSAHandler.m */; };
+		D6FADD601D77FDEB008A1401 /* SAEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FADD5F1D77FDEB008A1401 /* SAEncoder.m */; };
+		D6FADD631D7818DE008A1401 /* CANFrameHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FADD621D7818DE008A1401 /* CANFrameHandler.m */; };
+		D6FADD6D1D784152008A1401 /* KFrameHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FADD6C1D784152008A1401 /* KFrameHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +82,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6AF21EB1D797B5F0074C367 /* IProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProgress.h; sourceTree = "<group>"; };
+		D6DECF1B1D74270F00056993 /* BOSCH5_3LogicalChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCH5_3LogicalChannel.h; sourceTree = "<group>"; };
+		D6DECF1C1D74271000056993 /* BOSCH5_3LogicalChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCH5_3LogicalChannel.m; sourceTree = "<group>"; };
+		D6DFB18D1D77D24700721137 /* VoltageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoltageHandler.h; sourceTree = "<group>"; };
+		D6DFB18E1D77D24700721137 /* VoltageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoltageHandler.m; sourceTree = "<group>"; };
 		D6E032101D6D651400A4526F /* TsetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TsetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E032141D6D651400A4526F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6E032161D6D651400A4526F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +103,99 @@
 		D6E032341D6D651400A4526F /* TsetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TsetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E032381D6D651400A4526F /* TsetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TsetDemoUITests.m; sourceTree = "<group>"; };
 		D6E0323A1D6D651400A4526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E0324C1D6D656200A4526F /* BOSCH5_3FrameHamdler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCH5_3FrameHamdler.h; sourceTree = "<group>"; };
+		D6E0324D1D6D656200A4526F /* BOSCH5_3FrameHamdler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCH5_3FrameHamdler.m; sourceTree = "<group>"; };
+		D6E0324E1D6D656200A4526F /* BOSCH5_3PhyChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOSCH5_3PhyChannel.h; sourceTree = "<group>"; };
+		D6E0324F1D6D656200A4526F /* BOSCH5_3PhyChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOSCH5_3PhyChannel.m; sourceTree = "<group>"; };
+		D6E032501D6D656200A4526F /* BytesConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BytesConverter.h; sourceTree = "<group>"; };
+		D6E032511D6D656200A4526F /* BytesConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BytesConverter.m; sourceTree = "<group>"; };
+		D6E032521D6D656200A4526F /* CANChannelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANChannelBase.h; sourceTree = "<group>"; };
+		D6E032531D6D656200A4526F /* CANChannelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANChannelBase.m; sourceTree = "<group>"; };
+		D6E032541D6D656200A4526F /* CANLogalChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANLogalChannel.h; sourceTree = "<group>"; };
+		D6E032551D6D656200A4526F /* CANLogalChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANLogalChannel.m; sourceTree = "<group>"; };
+		D6E032561D6D656200A4526F /* CANPhychannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANPhychannel.h; sourceTree = "<group>"; };
+		D6E032571D6D656200A4526F /* CANPhychannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANPhychannel.m; sourceTree = "<group>"; };
+		D6E032581D6D656200A4526F /* DataHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHub.h; sourceTree = "<group>"; };
+		D6E032591D6D656200A4526F /* DataHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHub.m; sourceTree = "<group>"; };
+		D6E0325A1D6D656200A4526F /* DataLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLinker.h; sourceTree = "<group>"; };
+		D6E0325B1D6D656200A4526F /* DataLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLinker.m; sourceTree = "<group>"; };
+		D6E0325C1D6D656200A4526F /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		D6E0325D1D6D656200A4526F /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		D6E0325E1D6D656200A4526F /* ErrorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorItem.h; sourceTree = "<group>"; };
+		D6E0325F1D6D656200A4526F /* ErrorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorItem.m; sourceTree = "<group>"; };
+		D6E032601D6D656200A4526F /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		D6E032611D6D656200A4526F /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		D6E032621D6D656300A4526F /* FirwareProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirwareProgram.h; sourceTree = "<group>"; };
+		D6E032631D6D656300A4526F /* FirwareProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirwareProgram.m; sourceTree = "<group>"; };
+		D6E032641D6D656300A4526F /* HandlerChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandlerChain.h; sourceTree = "<group>"; };
+		D6E032651D6D656300A4526F /* HandlerChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandlerChain.m; sourceTree = "<group>"; };
+		D6E032661D6D656300A4526F /* ISO914LogicalChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO914LogicalChannel.h; sourceTree = "<group>"; };
+		D6E032671D6D656300A4526F /* ISO914LogicalChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO914LogicalChannel.m; sourceTree = "<group>"; };
+		D6E032681D6D656300A4526F /* ISO14230Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO14230Channel.h; sourceTree = "<group>"; };
+		D6E032691D6D656300A4526F /* ISO14230Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO14230Channel.m; sourceTree = "<group>"; };
+		D6E0326A1D6D656300A4526F /* ISO15765Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO15765Channel.h; sourceTree = "<group>"; };
+		D6E0326B1D6D656300A4526F /* ISO15765Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO15765Channel.m; sourceTree = "<group>"; };
+		D6E0326C1D6D656300A4526F /* J2534.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = J2534.h; sourceTree = "<group>"; };
+		D6E0326D1D6D656300A4526F /* J2534.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = J2534.m; sourceTree = "<group>"; };
+		D6E0326E1D6D656300A4526F /* KPhyChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPhyChannel.h; sourceTree = "<group>"; };
+		D6E0326F1D6D656300A4526F /* KPhyChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPhyChannel.m; sourceTree = "<group>"; };
+		D6E032701D6D656300A4526F /* LinkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMessage.h; sourceTree = "<group>"; };
+		D6E032711D6D656300A4526F /* LinkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkMessage.m; sourceTree = "<group>"; };
+		D6E032721D6D656300A4526F /* LinkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkProtocol.h; sourceTree = "<group>"; };
+		D6E032731D6D656300A4526F /* LinkProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkProtocol.m; sourceTree = "<group>"; };
+		D6E032741D6D656300A4526F /* LogcalChanenel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogcalChanenel.h; sourceTree = "<group>"; };
+		D6E032751D6D656300A4526F /* LogcalChanenel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogcalChanenel.m; sourceTree = "<group>"; };
+		D6E032761D6D656300A4526F /* NetworkFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkFrame.h; sourceTree = "<group>"; };
+		D6E032771D6D656300A4526F /* NetworkFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkFrame.m; sourceTree = "<group>"; };
+		D6E032781D6D656300A4526F /* PassThruConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassThruConfig.h; sourceTree = "<group>"; };
+		D6E032791D6D656300A4526F /* PassThruConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassThruConfig.m; sourceTree = "<group>"; };
+		D6E0327A1D6D656300A4526F /* PassThruMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassThruMsg.h; sourceTree = "<group>"; };
+		D6E0327B1D6D656300A4526F /* PassThruMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassThruMsg.m; sourceTree = "<group>"; };
+		D6E0327C1D6D656300A4526F /* PhysicalChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicalChannel.h; sourceTree = "<group>"; };
+		D6E0327D1D6D656300A4526F /* PhysicalChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicalChannel.m; sourceTree = "<group>"; };
+		D6E0327E1D6D656300A4526F /* ResponseHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseHandlerBase.h; sourceTree = "<group>"; };
+		D6E0327F1D6D656300A4526F /* ResponseHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseHandlerBase.m; sourceTree = "<group>"; };
+		D6E032801D6D656300A4526F /* RunOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunOptions.h; sourceTree = "<group>"; };
+		D6E032811D6D656300A4526F /* RunOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunOptions.m; sourceTree = "<group>"; };
+		D6E032821D6D656300A4526F /* RxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxMessage.h; sourceTree = "<group>"; };
+		D6E032831D6D656300A4526F /* RxMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxMessage.m; sourceTree = "<group>"; };
+		D6E032841D6D656300A4526F /* SocketManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManger.h; sourceTree = "<group>"; };
+		D6E032851D6D656300A4526F /* SocketManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManger.m; sourceTree = "<group>"; };
+		D6E032861D6D656300A4526F /* SystemError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemError.h; sourceTree = "<group>"; };
+		D6E032871D6D656300A4526F /* SystemError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemError.m; sourceTree = "<group>"; };
+		D6E032881D6D656300A4526F /* TxMwssage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxMwssage.h; sourceTree = "<group>"; };
+		D6E032891D6D656300A4526F /* TxMwssage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TxMwssage.m; sourceTree = "<group>"; };
+		D6E0328A1D6D656300A4526F /* VersionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionHandler.h; sourceTree = "<group>"; };
+		D6E0328B1D6D656300A4526F /* VersionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionHandler.m; sourceTree = "<group>"; };
+		D6E740351D8F8350006F678A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D6E740361D8F8350006F678A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D6E740371D8F8350006F678A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D6E740381D8F8350006F678A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		D6E85A291D913E19005459AC /* OutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutObject.h; sourceTree = "<group>"; };
+		D6E85A2A1D913E19005459AC /* OutObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutObject.m; sourceTree = "<group>"; };
+		D6E9E5BA1D75594200DC0D09 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		D6E9E5BB1D75594200DC0D09 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		D6E9E5BC1D75594200DC0D09 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		D6E9E5BD1D75594200DC0D09 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		D6EA86521D701A8C00CB98E7 /* ISO15765Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO15765Filter.h; sourceTree = "<group>"; };
+		D6EA86531D701A8C00CB98E7 /* ISO15765Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO15765Filter.m; sourceTree = "<group>"; };
+		D6EA86551D701C2C00CB98E7 /* ISO15765Param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO15765Param.h; sourceTree = "<group>"; };
+		D6EA86561D701C2C00CB98E7 /* ISO15765Param.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO15765Param.m; sourceTree = "<group>"; };
+		D6EA9E721D6E8528003F8382 /* SecurityAccessHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityAccessHandler.h; sourceTree = "<group>"; };
+		D6EA9E731D6E8528003F8382 /* SecurityAccessHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityAccessHandler.m; sourceTree = "<group>"; };
+		D6ED33171D790E1500998AF2 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D6ED33181D790E1500998AF2 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		D6F31D571D7E8BB6001BE200 /* IListenner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IListenner.h; sourceTree = "<group>"; };
+		D6F31D581D7E91F8001BE200 /* IDataHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataHub.h; sourceTree = "<group>"; };
+		D6FADD5B1D77F6A1008A1401 /* SAICSAHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAICSAHandler.h; sourceTree = "<group>"; };
+		D6FADD5C1D77F6A1008A1401 /* SAICSAHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAICSAHandler.m; sourceTree = "<group>"; };
+		D6FADD5E1D77FDEB008A1401 /* SAEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEncoder.h; sourceTree = "<group>"; };
+		D6FADD5F1D77FDEB008A1401 /* SAEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEncoder.m; sourceTree = "<group>"; };
+		D6FADD611D7818DE008A1401 /* CANFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANFrameHandler.h; sourceTree = "<group>"; };
+		D6FADD621D7818DE008A1401 /* CANFrameHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANFrameHandler.m; sourceTree = "<group>"; };
+		D6FADD6A1D781EA6008A1401 /* IDataPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataPipe.h; sourceTree = "<group>"; };
+		D6FADD6B1D784152008A1401 /* KFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFrameHandler.h; sourceTree = "<group>"; };
+		D6FADD6C1D784152008A1401 /* KFrameHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFrameHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +246,103 @@
 		D6E032121D6D651400A4526F /* TsetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6E740351D8F8350006F678A /* GCDAsyncSocket.h */,
+				D6E740361D8F8350006F678A /* GCDAsyncSocket.m */,
+				D6E740371D8F8350006F678A /* GCDAsyncUdpSocket.h */,
+				D6E740381D8F8350006F678A /* GCDAsyncUdpSocket.m */,
+				D6E9E5BA1D75594200DC0D09 /* AsyncSocket.h */,
+				D6E9E5BB1D75594200DC0D09 /* AsyncSocket.m */,
+				D6E9E5BC1D75594200DC0D09 /* AsyncUdpSocket.h */,
+				D6E9E5BD1D75594200DC0D09 /* AsyncUdpSocket.m */,
+				D6DECF1B1D74270F00056993 /* BOSCH5_3LogicalChannel.h */,
+				D6DECF1C1D74271000056993 /* BOSCH5_3LogicalChannel.m */,
+				D6E0324C1D6D656200A4526F /* BOSCH5_3FrameHamdler.h */,
+				D6E0324D1D6D656200A4526F /* BOSCH5_3FrameHamdler.m */,
+				D6E0324E1D6D656200A4526F /* BOSCH5_3PhyChannel.h */,
+				D6E0324F1D6D656200A4526F /* BOSCH5_3PhyChannel.m */,
+				D6E032501D6D656200A4526F /* BytesConverter.h */,
+				D6E032511D6D656200A4526F /* BytesConverter.m */,
+				D6E032521D6D656200A4526F /* CANChannelBase.h */,
+				D6E032531D6D656200A4526F /* CANChannelBase.m */,
+				D6E032541D6D656200A4526F /* CANLogalChannel.h */,
+				D6E032551D6D656200A4526F /* CANLogalChannel.m */,
+				D6E032561D6D656200A4526F /* CANPhychannel.h */,
+				D6E032571D6D656200A4526F /* CANPhychannel.m */,
+				D6E032581D6D656200A4526F /* DataHub.h */,
+				D6E032591D6D656200A4526F /* DataHub.m */,
+				D6F31D581D7E91F8001BE200 /* IDataHub.h */,
+				D6F31D571D7E8BB6001BE200 /* IListenner.h */,
+				D6E0325A1D6D656200A4526F /* DataLinker.h */,
+				D6E0325B1D6D656200A4526F /* DataLinker.m */,
+				D6E0325C1D6D656200A4526F /* Device.h */,
+				D6E0325D1D6D656200A4526F /* Device.m */,
+				D6E0325E1D6D656200A4526F /* ErrorItem.h */,
+				D6E0325F1D6D656200A4526F /* ErrorItem.m */,
+				D6E032601D6D656200A4526F /* Filter.h */,
+				D6E032611D6D656200A4526F /* Filter.m */,
+				D6EA86521D701A8C00CB98E7 /* ISO15765Filter.h */,
+				D6EA86531D701A8C00CB98E7 /* ISO15765Filter.m */,
+				D6EA86551D701C2C00CB98E7 /* ISO15765Param.h */,
+				D6EA86561D701C2C00CB98E7 /* ISO15765Param.m */,
+				D6E032621D6D656300A4526F /* FirwareProgram.h */,
+				D6E032631D6D656300A4526F /* FirwareProgram.m */,
+				D6AF21EB1D797B5F0074C367 /* IProgress.h */,
+				D6E032641D6D656300A4526F /* HandlerChain.h */,
+				D6E032651D6D656300A4526F /* HandlerChain.m */,
+				D6E032661D6D656300A4526F /* ISO914LogicalChannel.h */,
+				D6E032671D6D656300A4526F /* ISO914LogicalChannel.m */,
+				D6E032681D6D656300A4526F /* ISO14230Channel.h */,
+				D6E032691D6D656300A4526F /* ISO14230Channel.m */,
+				D6E0326A1D6D656300A4526F /* ISO15765Channel.h */,
+				D6E0326B1D6D656300A4526F /* ISO15765Channel.m */,
+				D6E0326C1D6D656300A4526F /* J2534.h */,
+				D6E0326D1D6D656300A4526F /* J2534.m */,
+				D6E0326E1D6D656300A4526F /* KPhyChannel.h */,
+				D6E0326F1D6D656300A4526F /* KPhyChannel.m */,
+				D6E032701D6D656300A4526F /* LinkMessage.h */,
+				D6E032711D6D656300A4526F /* LinkMessage.m */,
+				D6E032721D6D656300A4526F /* LinkProtocol.h */,
+				D6E032731D6D656300A4526F /* LinkProtocol.m */,
+				D6E032741D6D656300A4526F /* LogcalChanenel.h */,
+				D6E032751D6D656300A4526F /* LogcalChanenel.m */,
+				D6E032761D6D656300A4526F /* NetworkFrame.h */,
+				D6E032771D6D656300A4526F /* NetworkFrame.m */,
+				D6E032781D6D656300A4526F /* PassThruConfig.h */,
+				D6E032791D6D656300A4526F /* PassThruConfig.m */,
+				D6E0327A1D6D656300A4526F /* PassThruMsg.h */,
+				D6E0327B1D6D656300A4526F /* PassThruMsg.m */,
+				D6E0327C1D6D656300A4526F /* PhysicalChannel.h */,
+				D6E0327D1D6D656300A4526F /* PhysicalChannel.m */,
+				D6E0327E1D6D656300A4526F /* ResponseHandlerBase.h */,
+				D6E0327F1D6D656300A4526F /* ResponseHandlerBase.m */,
+				D6EA9E721D6E8528003F8382 /* SecurityAccessHandler.h */,
+				D6EA9E731D6E8528003F8382 /* SecurityAccessHandler.m */,
+				D6DFB18D1D77D24700721137 /* VoltageHandler.h */,
+				D6DFB18E1D77D24700721137 /* VoltageHandler.m */,
+				D6FADD5B1D77F6A1008A1401 /* SAICSAHandler.h */,
+				D6FADD5C1D77F6A1008A1401 /* SAICSAHandler.m */,
+				D6FADD611D7818DE008A1401 /* CANFrameHandler.h */,
+				D6FADD621D7818DE008A1401 /* CANFrameHandler.m */,
+				D6FADD6B1D784152008A1401 /* KFrameHandler.h */,
+				D6FADD6C1D784152008A1401 /* KFrameHandler.m */,
+				D6FADD5E1D77FDEB008A1401 /* SAEncoder.h */,
+				D6FADD5F1D77FDEB008A1401 /* SAEncoder.m */,
+				D6E032801D6D656300A4526F /* RunOptions.h */,
+				D6E032811D6D656300A4526F /* RunOptions.m */,
+				D6E032821D6D656300A4526F /* RxMessage.h */,
+				D6E032831D6D656300A4526F /* RxMessage.m */,
+				D6E032841D6D656300A4526F /* SocketManger.h */,
+				D6E032851D6D656300A4526F /* SocketManger.m */,
+				D6E032861D6D656300A4526F /* SystemError.h */,
+				D6E032871D6D656300A4526F /* SystemError.m */,
+				D6ED33171D790E1500998AF2 /* Message.h */,
+				D6ED33181D790E1500998AF2 /* Message.m */,
+				D6E032881D6D656300A4526F /* TxMwssage.h */,
+				D6E032891D6D656300A4526F /* TxMwssage.m */,
+				D6E0328A1D6D656300A4526F /* VersionHandler.h */,
+				D6E0328B1D6D656300A4526F /* VersionHandler.m */,
+				D6E85A291D913E19005459AC /* OutObject.h */,
+				D6E85A2A1D913E19005459AC /* OutObject.m */,
 				D6E032161D6D651400A4526F /* AppDelegate.h */,
 				D6E032171D6D651400A4526F /* AppDelegate.m */,
 				D6E032191D6D651400A4526F /* ViewController.h */,
@@ -110,6 +352,7 @@
 				D6E032211D6D651400A4526F /* LaunchScreen.storyboard */,
 				D6E032241D6D651400A4526F /* Info.plist */,
 				D6E032131D6D651400A4526F /* Supporting Files */,
+				D6FADD6A1D781EA6008A1401 /* IDataPipe.h */,
 			);
 			path = TsetDemo;
 			sourceTree = "<group>";
@@ -207,6 +450,7 @@
 				TargetAttributes = {
 					D6E0320F1D6D651400A4526F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y9J5GMVUKE;
 					};
 					D6E032281D6D651400A4526F = {
 						CreatedOnToolsVersion = 7.2;
@@ -270,9 +514,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E740391D8F8350006F678A /* GCDAsyncSocket.m in Sources */,
 				D6E0321B1D6D651400A4526F /* ViewController.m in Sources */,
+				D6E0329E1D6D656300A4526F /* ISO15765Channel.m in Sources */,
+				D6E0328F1D6D656300A4526F /* BOSCH5_3FrameHamdler.m in Sources */,
+				D6DFB18F1D77D24700721137 /* VoltageHandler.m in Sources */,
+				D6FADD631D7818DE008A1401 /* CANFrameHandler.m in Sources */,
+				D6E0329B1D6D656300A4526F /* HandlerChain.m in Sources */,
+				D6E032A51D6D656300A4526F /* PassThruConfig.m in Sources */,
+				D6E9E5BF1D75594200DC0D09 /* AsyncUdpSocket.m in Sources */,
+				D6E032A01D6D656300A4526F /* KPhyChannel.m in Sources */,
+				D6FADD5D1D77F6A1008A1401 /* SAICSAHandler.m in Sources */,
+				D6E7403A1D8F8350006F678A /* GCDAsyncUdpSocket.m in Sources */,
+				D6E032971D6D656300A4526F /* Device.m in Sources */,
+				D6FADD601D77FDEB008A1401 /* SAEncoder.m in Sources */,
+				D6E032921D6D656300A4526F /* CANChannelBase.m in Sources */,
+				D6E032A61D6D656300A4526F /* PassThruMsg.m in Sources */,
+				D6E032911D6D656300A4526F /* BytesConverter.m in Sources */,
+				D6E032A71D6D656300A4526F /* PhysicalChannel.m in Sources */,
+				D6EA86571D701C2C00CB98E7 /* ISO15765Param.m in Sources */,
+				D6DECF1D1D74271000056993 /* BOSCH5_3LogicalChannel.m in Sources */,
+				D6EA86541D701A8C00CB98E7 /* ISO15765Filter.m in Sources */,
+				D6E032991D6D656300A4526F /* Filter.m in Sources */,
+				D6E032A41D6D656300A4526F /* NetworkFrame.m in Sources */,
+				D6E032AD1D6D656300A4526F /* TxMwssage.m in Sources */,
+				D6E0329F1D6D656300A4526F /* J2534.m in Sources */,
+				D6E032951D6D656300A4526F /* DataHub.m in Sources */,
 				D6E032181D6D651400A4526F /* AppDelegate.m in Sources */,
+				D6E032AB1D6D656300A4526F /* SocketManger.m in Sources */,
+				D6E032AE1D6D656300A4526F /* VersionHandler.m in Sources */,
+				D6E0329C1D6D656300A4526F /* ISO914LogicalChannel.m in Sources */,
+				D6ED33191D790E1500998AF2 /* Message.m in Sources */,
+				D6E85A2B1D913E19005459AC /* OutObject.m in Sources */,
+				D6E032A31D6D656300A4526F /* LogcalChanenel.m in Sources */,
+				D6E0329D1D6D656300A4526F /* ISO14230Channel.m in Sources */,
+				D6E032A21D6D656300A4526F /* LinkProtocol.m in Sources */,
 				D6E032151D6D651400A4526F /* main.m in Sources */,
+				D6E032961D6D656300A4526F /* DataLinker.m in Sources */,
+				D6E032A81D6D656300A4526F /* ResponseHandlerBase.m in Sources */,
+				D6E032AA1D6D656300A4526F /* RxMessage.m in Sources */,
+				D6E0329A1D6D656300A4526F /* FirwareProgram.m in Sources */,
+				D6E9E5BE1D75594200DC0D09 /* AsyncSocket.m in Sources */,
+				D6E032901D6D656300A4526F /* BOSCH5_3PhyChannel.m in Sources */,
+				D6FADD6D1D784152008A1401 /* KFrameHandler.m in Sources */,
+				D6EA9E741D6E8528003F8382 /* SecurityAccessHandler.m in Sources */,
+				D6E032A11D6D656300A4526F /* LinkMessage.m in Sources */,
+				D6E032AC1D6D656300A4526F /* SystemError.m in Sources */,
+				D6E032941D6D656300A4526F /* CANPhychannel.m in Sources */,
+				D6E032A91D6D656300A4526F /* RunOptions.m in Sources */,
+				D6E032931D6D656300A4526F /* CANLogalChannel.m in Sources */,
+				D6E032981D6D656300A4526F /* ErrorItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +635,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Shanghai Rong Zhou Communication Technology Co., Ltd. (A97ZZZ62E4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Developer ID Application: Shanghai Rong Zhou Communication Technology Co., Ltd. (A97ZZZ62E4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -388,7 +680,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Shanghai Rong Zhou Communication Technology Co., Ltd. (A97ZZZ62E4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Developer ID Application: Shanghai Rong Zhou Communication Technology Co., Ltd. (A97ZZZ62E4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -413,10 +706,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TsetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cetcmotor.TsetDemo;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofilmchenkai.j2534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +722,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TsetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cetcmotor.TsetDemo;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofilmchenkai.j2534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +801,7 @@
 				D6E0323F1D6D651400A4526F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E032401D6D651400A4526F /* Build configuration list for PBXNativeTarget "TsetDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +810,7 @@
 				D6E032421D6D651400A4526F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E032431D6D651400A4526F /* Build configuration list for PBXNativeTarget "TsetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +819,7 @@
 				D6E032451D6D651400A4526F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
